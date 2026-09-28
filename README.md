@@ -206,37 +206,7 @@ Xem toàn bộ điều khoản trong file:
 LICENSE
 ```
 
-> **Quan trọng:** Nếu bạn không muốn người khác sử dụng code cho mục đích thương mại hoặc không muốn họ tạo sản phẩm dựa trên code của bạn, **Apache License 2.0 không phù hợp**, vì đây là giấy phép mã nguồn mở có tính permissive.
 
-### Cách thêm Apache License 2.0 trên GitHub
-
-Trong repository GitHub:
-
-1. Chọn **Add file**.
-2. Chọn **Create new file**.
-3. Đặt tên file:
-
-```text
-LICENSE
-```
-
-4. Chọn **Choose a license template**.
-5. Chọn **Apache License 2.0**.
-6. Điền năm và chủ sở hữu bản quyền, ví dụ:
-
-```text
-2026 AndyLeAI
-```
-
-7. Bấm **Review and submit** / **Commit changes**.
-
-GitHub sau đó sẽ tự nhận diện repository là:
-
-```text
-Apache-2.0
-```
-
----
 
 ## © Copyright
 
@@ -252,4 +222,4 @@ Licensed under the Apache License, Version 2.0.
 
 **AndyLeAI**
 
-Nếu bạn phát triển thêm tính năng, hãy tạo branch riêng và gửi Pull Request để dễ quản lý thay đổi.
+
