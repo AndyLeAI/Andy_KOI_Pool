@@ -1,3 +1,3 @@
-Hồ cá koi, nghe nhạc thư giãn !!!!
+# Hồ cá koi, nghe nhạc thư giãn !!!!
 
-/screenshot.png
+![Hồ cá koi](screenshot.jpg)
