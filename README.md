@@ -1,124 +1,77 @@
-# Hồ cá koi 3D, nghe nhạc thư giãn !!!!
+# 🐟 AndyLe Pool
 
-![Hồ cá koi](screenshot.jpg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+![Three.js](https://img.shields.io/badge/Three.js-r170-black)
+![WebGL](https://img.shields.io/badge/WebGL-3D-green)
+![HTML5](https://img.shields.io/badge/HTML5-CSS%20%2B%20JavaScript-orange)
 
-AndyLe Pool là một hồ cá Koi 3D tương tác chạy trực tiếp trên trình duyệt.
+**AndyLe Pool** là một hồ cá Koi 3D tương tác chạy trực tiếp trên trình duyệt.  
 Ứng dụng mô phỏng mặt nước, cá Koi, thời tiết, mùa trong năm, ánh sáng và nhạc nền theo từng khung cảnh.
 
+![AndyLe Pool](screenshot.jpg)
 
+---
 
-✨ Tính năng chính
+## ✨ Tính năng chính
 
-Hồ cá Koi 3D tương tác bằng Three.js / WebGL.
+- Hồ cá Koi 3D tương tác bằng **Three.js / WebGL**.
+- Chạm hoặc click mặt nước để **thả thức ăn cho cá**.
+- Kéo chuột để **xoay góc nhìn**.
+- Cuộn chuột hoặc chụm hai ngón để **phóng to / thu nhỏ**.
+- Nút **Xua cá** tạo phản ứng cho đàn cá.
+- Hiệu ứng mặt nước, gợn sóng, phản xạ và khúc xạ.
+- Hiệu ứng ánh sáng thay đổi theo từng cảnh.
+- Hỗ trợ nhiều trạng thái thời tiết và mùa.
+- Nhạc nền riêng cho từng cảnh.
+- Hiệu ứng sấm được tạo trực tiếp bằng Web Audio API.
+- Giao diện responsive, dùng được trên máy tính và thiết bị di động.
+- Không cần framework hoặc bước build riêng.
 
-Chạm hoặc click mặt nước để thả thức ăn cho cá.
+---
 
-Kéo chuột để xoay góc nhìn.
+## 🌤 Các khung cảnh
 
-Cuộn chuột hoặc chụm hai ngón để phóng to / thu nhỏ.
+| Phím | Cảnh |
+|---|---|
+| `1` | ☀️ Nắng đẹp |
+| `2` | 🌅 Hoàng hôn |
+| `3` | 🌙 Đêm |
+| `4` | 🌧 Mưa |
+| `5` | ⛈ Sấm sét |
+| `6` | 🌸 Mùa xuân |
+| `7` | 🌿 Mùa hạ |
+| `8` | 🍂 Mùa thu |
+| `9` | ❄️ Mùa đông |
 
-Nút Xua cá tạo phản ứng cho đàn cá.
+---
 
-Hiệu ứng mặt nước, gợn sóng, phản xạ và khúc xạ.
+## 🎮 Điều khiển
 
-Hiệu ứng ánh sáng thay đổi theo từng cảnh.
+| Thao tác | Chức năng |
+|---|---|
+| Click / chạm mặt nước | Thả thức ăn |
+| Kéo chuột / kéo ngón tay | Xoay camera |
+| Cuộn chuột / pinch | Zoom |
+| `Space` | Xua cá |
+| `M` | Bật / tắt nhạc |
+| `H` | Ẩn / hiện giao diện |
+| `1` → `9` | Chuyển nhanh giữa các cảnh |
 
-Hỗ trợ nhiều trạng thái thời tiết và mùa.
+---
 
-Nhạc nền riêng cho từng cảnh.
-
-Hiệu ứng sấm được tạo trực tiếp bằng Web Audio API.
-
-Giao diện responsive, dùng được trên máy tính và thiết bị di động.
-
-Không cần framework hoặc bước build riêng.
-
-🌤 Các khung cảnh
-
-Phím
-
-Cảnh
-
-1
-
-☀️ Nắng đẹp
-
-2
-
-🌅 Hoàng hôn
-
-3
-
-🌙 Đêm
-
-4
-
-🌧 Mưa
-
-5
-
-⛈ Sấm sét
-
-6
-
-🌸 Mùa xuân
-
-7
-
-🌿 Mùa hạ
-
-8
-
-🍂 Mùa thu
-
-9
-
-❄️ Mùa đông
-
-🎮 Điều khiển
-
-Thao tác
-
-Chức năng
-
-Click / chạm mặt nước
-
-Thả thức ăn
-
-Kéo chuột / kéo ngón tay
-
-Xoay camera
-
-Cuộn chuột / pinch
-
-Zoom
-
-Space
-
-Xua cá
-
-M
-
-Bật / tắt nhạc
-
-H
-
-Ẩn / hiện giao diện
-
-1 → 9
-
-Chuyển nhanh giữa các cảnh
-
-🎵 Thêm nhạc nền
+## 🎵 Thêm nhạc nền
 
 Tạo thư mục:
 
+```text
 music/
+```
 
-đặt cạnh file index.html.
+đặt cạnh file `index.html`.
 
 Cấu trúc đề xuất:
 
+```text
 AndyLe-Pool/
 ├── index.html
 ├── README.md
@@ -135,155 +88,168 @@ AndyLe-Pool/
     ├── autumn.mp3
     ├── winter.mp3
     └── default.mp3
+```
 
 Các định dạng âm thanh được hỗ trợ:
 
+```text
 .mp3
 .m4a
 .ogg
 .wav
+```
 
 Nếu một cảnh không có file nhạc riêng, ứng dụng sẽ thử dùng:
 
+```text
 music/default.*
+```
 
 Riêng cảnh mùa đông có thể dùng:
 
+```text
 winter.*
+```
 
 hoặc:
 
+```text
 snow.*
+```
 
-Lưu ý về bản quyền âm thanh: Apache License 2.0 chỉ áp dụng cho mã nguồn của dự án nếu bạn khai báo như vậy. Các file nhạc, hình ảnh hoặc tài nguyên bên thứ ba không tự động trở thành Apache 2.0. Chỉ đưa lên repository những tài nguyên bạn sở hữu hoặc có quyền phân phối.
+> **Lưu ý về bản quyền âm thanh:** Apache License 2.0 chỉ áp dụng cho mã nguồn của dự án nếu bạn khai báo như vậy. Các file nhạc, hình ảnh hoặc tài nguyên bên thứ ba không tự động trở thành Apache 2.0. Chỉ đưa lên repository những tài nguyên bạn sở hữu hoặc có quyền phân phối.
 
-🚀 Chạy ứng dụng
+---
 
-AndyLe Pool là ứng dụng web tĩnh, không cần npm install.
+## 🚀 Chạy ứng dụng
 
-Cách 1 — GitHub Pages
+AndyLe Pool là ứng dụng web tĩnh, không cần `npm install`.
 
-Upload toàn bộ project lên GitHub.
+### Cách 1 — GitHub Pages
 
-Vào Settings của repository.
-
-Chọn Pages.
-
-Trong Build and deployment, chọn:
-
-Source: Deploy from a branch
-
-Branch: main
-
-Folder: / (root)
-
-Bấm Save.
-
-Chờ GitHub hoàn tất deploy.
+1. Upload toàn bộ project lên GitHub.
+2. Vào **Settings** của repository.
+3. Chọn **Pages**.
+4. Trong **Build and deployment**, chọn:
+   - **Source:** `Deploy from a branch`
+   - **Branch:** `main`
+   - **Folder:** `/ (root)`
+5. Bấm **Save**.
+6. Chờ GitHub hoàn tất deploy.
 
 Sau đó GitHub sẽ cung cấp URL để chạy app trực tuyến.
 
-Cách 2 — Chạy local bằng Python
+### Cách 2 — Chạy local bằng Python
 
 Mở Terminal / CMD tại thư mục project:
 
+```bash
 python -m http.server 8000
+```
 
 Sau đó mở trình duyệt:
 
+```text
 http://localhost:8000
+```
 
-Khuyến nghị chạy qua HTTP thay vì mở trực tiếp index.html bằng file://.
+Khuyến nghị chạy qua HTTP thay vì mở trực tiếp `index.html` bằng `file://`.
 
-🧩 Công nghệ sử dụng
+---
 
-HTML5
+## 🧩 Công nghệ sử dụng
 
-CSS3
-
-JavaScript ES Modules
-
-WebGL
-
-Three.js 0.170.0
-
-Three.js OrbitControls
-
-Three.js BufferGeometryUtils
-
-Web Audio API
-
-Google Fonts
+- HTML5
+- CSS3
+- JavaScript ES Modules
+- WebGL
+- Three.js `0.170.0`
+- Three.js `OrbitControls`
+- Three.js `BufferGeometryUtils`
+- Web Audio API
+- Google Fonts
 
 Three.js và Google Fonts hiện được tải từ CDN, vì vậy khi chạy phiên bản hiện tại cần có kết nối Internet để tải các dependency này.
 
-📁 Cấu trúc repository
+---
 
+## 📁 Cấu trúc repository
+
+```text
 .
 ├── index.html          # Toàn bộ ứng dụng AndyLe Pool
 ├── screenshot.jpg      # Hình preview dùng trong README
 ├── README.md           # Tài liệu hướng dẫn
 ├── LICENSE             # Apache License 2.0
 └── music/              # Nhạc nền theo từng cảnh
+```
 
-📜 License
+---
 
-Mã nguồn của AndyLe Pool được phát hành theo Apache License 2.0.
+## 📜 License
+
+Mã nguồn của **AndyLe Pool** được phát hành theo **Apache License 2.0**.
 
 Apache License 2.0 cho phép người khác:
 
-sử dụng mã nguồn;
-
-chỉnh sửa;
-
-phân phối lại;
-
-sử dụng cho mục đích thương mại;
-
-tạo sản phẩm phát triển từ mã nguồn;
+- sử dụng mã nguồn;
+- chỉnh sửa;
+- phân phối lại;
+- sử dụng cho mục đích thương mại;
+- tạo sản phẩm phát triển từ mã nguồn;
 
 với điều kiện họ phải tuân thủ các yêu cầu của Apache License 2.0, bao gồm việc giữ lại thông tin bản quyền và giấy phép liên quan, đồng thời ghi chú các file đã được thay đổi khi phân phối phiên bản sửa đổi.
 
 Xem toàn bộ điều khoản trong file:
 
+```text
 LICENSE
+```
 
-Quan trọng: Nếu bạn không muốn người khác sử dụng code cho mục đích thương mại hoặc không muốn họ tạo sản phẩm dựa trên code của bạn, Apache License 2.0 không phù hợp, vì đây là giấy phép mã nguồn mở có tính permissive.
+> **Quan trọng:** Nếu bạn không muốn người khác sử dụng code cho mục đích thương mại hoặc không muốn họ tạo sản phẩm dựa trên code của bạn, **Apache License 2.0 không phù hợp**, vì đây là giấy phép mã nguồn mở có tính permissive.
 
-Cách thêm Apache License 2.0 trên GitHub
+### Cách thêm Apache License 2.0 trên GitHub
 
 Trong repository GitHub:
 
-Chọn Add file.
+1. Chọn **Add file**.
+2. Chọn **Create new file**.
+3. Đặt tên file:
 
-Chọn Create new file.
-
-Đặt tên file:
-
+```text
 LICENSE
+```
 
-Chọn Choose a license template.
+4. Chọn **Choose a license template**.
+5. Chọn **Apache License 2.0**.
+6. Điền năm và chủ sở hữu bản quyền, ví dụ:
 
-Chọn Apache License 2.0.
-
-Điền năm và chủ sở hữu bản quyền, ví dụ:
-
+```text
 2026 AndyLeAI
+```
 
-Bấm Review and submit / Commit changes.
+7. Bấm **Review and submit** / **Commit changes**.
 
 GitHub sau đó sẽ tự nhận diện repository là:
 
+```text
 Apache-2.0
+```
 
-© Copyright
+---
 
+## © Copyright
+
+```text
 Copyright 2026 AndyLeAI
+```
 
 Licensed under the Apache License, Version 2.0.
 
-👤 Author
+---
 
-AndyLeAI
+## 👤 Author
+
+**AndyLeAI**
 
 Nếu bạn phát triển thêm tính năng, hãy tạo branch riêng và gửi Pull Request để dễ quản lý thay đổi.
